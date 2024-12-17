@@ -1,0 +1,65 @@
+body{
+  background-color: lightgray;
+  font-family: arial ;
+}
+
+.general{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-right: 300px;
+  width: 510px;
+  height: 525px;
+  border-radius: 10px;
+  position: relative;
+}
+.contact{
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 25px;
+}
+p{
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+.form{
+  margin: 0;
+}
+
+.fname{
+  display: inline-block;
+  width: 200px;
+  height: 25px;
+  margin-right: 15px;
+  margin-bottom: 40px;
+}
+
+.lname{
+  display: inline-block;
+  width: 200px;
+  height: 25px;
+
+}
+
+.email{
+  width: 415px;
+}
+
+textarea{
+  width: 415px;
+  height: 70px;
+}
+
+button{
+  width: 415px;
+  height: 35px;
+  background-color: rgb(3, 65, 46);
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+}
